@@ -1,9 +1,7 @@
 Migration
 ---
 
----
 <img src="https://img.shields.io/badge/v-3.0-blue?style=for-the-badge" alt="">
----
 
 Чтобы переименовать модель, сначала необходимо создать пустую миграцию:
 

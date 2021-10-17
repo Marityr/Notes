@@ -1,9 +1,7 @@
 Models
 ---
 
----
 <img src="https://img.shields.io/badge/v-3.0-blue?style=for-the-badge" alt="">
----
 
     class Bb(models.Model):
         title = models.CharField(max_length=50)
