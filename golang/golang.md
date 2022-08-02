@@ -2,4 +2,6 @@
 
 
 - [Sintaxis](sintaxis/sintaxis.md)
-    - [Generics]()
+    - [Generics](sintaxis/sintaxis.md#genericse)
+    - [Closures](sintaxis/sintaxis.md#closures)
+    - [Interfaces](sintaxis/sintaxis.md#interfaces)

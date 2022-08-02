@@ -1,12 +1,65 @@
 # [NOTES](../README.md) - [Golang](../golang.md) - Sintaxis
 
 
-- [Generics](genericse)
+- [Generics](#genericse)
+- [Closures](#closures)
+- [Interfaces](#interfaces)
 
-Take me to [pookie](#pookie)
+## Interfaces
+<a name="interfaces"></a>
+
+        package main
+
+        import "fmt"
+
+        type animal soundMove
+
+        type soundMove interface {
+            volume()
+        }
+
+        type cat struct{}
+
+        func (c *cat) volume() {
+            fmt.Println("MEOW!")
+        }
+
+        func main() {
+            var c animal = &cat{}
+
+            c.volume()
+        }
+
+
+## Closures
+<a name="closures"></a>
+
+        package main
+
+        import "fmt"
+
+        func intSeq() func() int {
+            i := 0
+            return func() int {
+                i++
+                return i
+            }
+        }
+
+        func main() {
+
+            nextInt := intSeq()
+
+            fmt.Println(nextInt())
+            fmt.Println(nextInt())
+            fmt.Println(nextInt())
+
+            newInts := intSeq()
+            fmt.Println(newInts())
+        }
 
 ## Generics
-
+<a name="genericse"></a>
 
         package main
 
@@ -54,4 +107,3 @@ Take me to [pookie](#pookie)
 
 
 
-<a name="pookie">1</a>
