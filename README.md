@@ -11,7 +11,7 @@
 
 - [Golang](golang/golang.md "Golang")
     - [Sintaxis](golang/sintaxis/sintaxis.md)
-        - [Generics](golang/sintaxis/sintaxis.md#genericse)
+        - [Generics](golang/sintaxis/sintaxis.md#generics)
         - [!? Closures](golang/sintaxis/sintaxis.md#closures)
         - [Interfaces](golang/sintaxis/sintaxis.md#interfaces)
     - [Gin]()

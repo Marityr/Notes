@@ -1,7 +1,7 @@
 # [NOTES](../README.md) - [Golang](../golang.md) - Sintaxis
 
 
-- [Generics](#genericse)
+- [Generics](#generics)
 - [Closures](#closures)
 - [Interfaces](#interfaces)
 
