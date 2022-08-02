@@ -1,5 +1,4 @@
-# [NOTES](../README.md)
+# [NOTES](../README.md) - [Golang](../golang.md) - Sintaxis
 
-- [Golang](../golang.md)
-    - [Sintaxis](sintaxis/sintaxis.md)
-        - [Generics]()
+
+- [Generics]()
