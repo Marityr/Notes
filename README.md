@@ -1,13 +1,12 @@
 # NOTES
 <p align="left">
 <img src="https://img.shields.io/badge/Golang-blue?style=for-the-badge" alt="">
-<img src="https://img.shields.io/badge/v-3.-blue?style=for-the-badge" alt="">
 </p>
 
 Заметки по лекциям
 
-- [Golang](golang/main.md "Golang")
-    - [Sintaxis]()
+- [Golang](golang/golang.md "Golang")
+    - [Sintaxis](golang/sintaxis/sintaxis.md)
         - [Generics]()
     ---
     - [Gin]()
@@ -25,9 +24,7 @@
 - [Полезности]()
 
 ---
-# Golang
-## Sintaxis
-## Generics
+
         package main
 
         import "fmt"
